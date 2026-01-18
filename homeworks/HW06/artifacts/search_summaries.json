@@ -1,0 +1,26 @@
+{
+  "DecisionTree": {
+    "best_params": {
+      "ccp_alpha": 0.0,
+      "max_depth": 8,
+      "min_samples_leaf": 20
+    },
+    "best_cv_roc_auc": 0.8266101547230521
+  },
+  "RandomForest": {
+    "best_params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1
+    },
+    "best_cv_roc_auc": 0.9250379882957087
+  },
+  "HistGradientBoosting": {
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": null,
+      "max_leaf_nodes": 63
+    },
+    "best_cv_roc_auc": 0.9296307289714859
+  }
+}
