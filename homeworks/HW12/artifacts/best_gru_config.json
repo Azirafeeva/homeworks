@@ -1,0 +1,18 @@
+{
+  "dataset": "S12-hw-dataset.csv",
+  "seed": 42,
+  "model": {
+    "type": "GRU",
+    "input_size": 5,
+    "hidden_size": 32,
+    "num_layers": 2,
+    "dropout": 0.2
+  },
+  "window_size": 10,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "epochs": 30,
+  "loss_function": "MSELoss",
+  "scaler": "StandardScaler"
+}
