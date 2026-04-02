@@ -2,7 +2,12 @@
   "dataset": "STL10",
   "seed": 42,
   "architecture": "ResNet18",
-  "pretrained_dataset": "ImageNet",
+  "preprocess": "ImageNet",
+  "augmentation": ["RandomHorizontalFlip", "ColorJitter"],
+  "transforms": {
+            "mean": [0.4914, 0.4822, 0.4465],
+            "std": [0.2471, 0.2435, 0.2616]
+  },
   "input_size": [
     3,
     224,
