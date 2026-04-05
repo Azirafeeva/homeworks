@@ -1,0 +1,27 @@
+{
+  "dataset": "STL10",
+  "seed": 42,
+  "architecture": "ResNet18",
+  "preprocess": "ImageNet",
+  "augmentation": ["RandomHorizontalFlip", "ColorJitter"],
+  "transforms": {
+            "mean": [0.4914, 0.4822, 0.4465],
+            "std": [0.2471, 0.2435, 0.2616]
+  },
+  "input_size": [
+    3,
+    224,
+    224
+  ],
+  "num_classes": 10,
+  "backbone": {
+    "trainable": false,
+    "output_features": 512
+  },
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "weight_decay": 0,
+  "batch_size": 64,
+  "loss_function": "CrossEntropyLoss",
+  "epochs": 6
+}
