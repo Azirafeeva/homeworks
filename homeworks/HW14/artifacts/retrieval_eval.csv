@@ -1,0 +1,9 @@
+query,expected_source,retrieved_sources,hit_at_k
+Can I pay with a credit card?,1,"1, 10, 13",1
+Do you have an expedited delivery?,5,"8, 4, 12, 5",1
+How much does international shipping cost?,6,"6, 5",1
+Can I place an order by phone?,12,"12, 16, 2, 4",1
+Where can I see product reviews?,19,19,1
+Where is the register button?,0,"0, 19",1
+who should I call to change the delivery address?,9,"8, 12",0
+Do you have promo codes or a loyalty program?,15,"15, 17",1

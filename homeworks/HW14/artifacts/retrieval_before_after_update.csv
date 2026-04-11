@@ -1,0 +1,3 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+Do you have an expedited delivery?,8; 12; 4; 8; 12,22; 22; 8; 12; 4,True
+Do you have promo codes or a loyalty program?,15; 15; 17; 14; 11,20; 20; 15; 15; 17,True
