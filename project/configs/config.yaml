@@ -1,0 +1,5 @@
+paths:
+  data_raw: "data/bank_sample.csv"
+  models: "models/"
+  reports: "artifacts/"
+  figures: "artifacts/figures/"

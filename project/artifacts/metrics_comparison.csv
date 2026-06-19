@@ -1,0 +1,4 @@
+model;roc_auc;pr_auc;f1;accuracy;train_time_sec
+Baseline LogisticRegression;0,9035;0,5214;0,5387;0,8354;4,8
+GradientBoosting (sample_weight);0,9309;0,6185;0,582;0,8538;18,57
+RandomForest (balanced);0,9226;0,6041;0,5688;0,8498;1,82
