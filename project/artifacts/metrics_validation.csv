@@ -1,0 +1,4 @@
+model;roc_auc;pr_auc;f1;accuracy;inference_time
+LogisticRegression;0,9125;0,5399;0,5468;0,8414;0,03
+GradientBoosting;0,9385;0,631;0,5997;0,8603;0,09
+RandomForest;0,9307;0,6173;0,5848;0,8572;0,18
